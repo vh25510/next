@@ -1,0 +1,39 @@
+.close-button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  display: inline-block;
+  border: none;
+  background-color: #e6424280;
+  box-sizing: border-box;
+  width: 1.2rem;
+}
+
+.tag {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  display: inline-block;
+  font-size: small;
+  border-radius: 0.5em;
+  padding-inline: 0.5rem;
+  margin-right: 1.5rem;
+  transition: all 0.2s;
+}
+.tag button {
+  transform: translateX(-2rem);
+  transition: all 0.2s;
+  opacity: 0;
+}
+
+.tag:hover button {
+  transform: none;
+  opacity: 1;
+}

@@ -1,0 +1,9 @@
+.author {
+  font-size: x-small;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.author::after {
+  content: ":";
+}

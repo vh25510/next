@@ -1,0 +1,7 @@
+.current-period {
+  background-color: #dddddd;
+}
+
+.row {
+  transition: all 0.2s ease-in-out;
+}
